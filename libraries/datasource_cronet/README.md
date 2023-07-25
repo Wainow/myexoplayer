@@ -9,7 +9,7 @@ natively supports the HTTP, HTTP/2, and HTTP/3 over QUIC protocols. Cronet is
 used by some of the world's biggest streaming applications, including YouTube,
 and is our recommended network stack for most use cases.
 
-[HttpDataSource]: ../datasource/src/main/java/androidx/media3/datasource/HttpDataSource.java
+[HttpDataSource]: ../datasource/src/main/java/androidx/mynewmedia4/datasource/HttpDataSource.java
 [Cronet]: https://developer.android.com/guide/topics/connectivity/cronet
 
 ## Getting the module

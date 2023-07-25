@@ -28,7 +28,7 @@
       android:exported="true">
 
     <activity
-        android:name=".MainActivity"
+        android:name="androidx.mynewmedia4.demo.surface.MainActivity"
         android:exported="true">
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>

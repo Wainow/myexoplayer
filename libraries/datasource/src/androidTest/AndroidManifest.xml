@@ -16,7 +16,7 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="androidx.media3.datasource.test">
+    package="androidx.mynewmedia4.datasource.test">
 
   <uses-permission android:name="android.permission.INTERNET"/>
   <uses-sdk/>
@@ -27,8 +27,8 @@
       android:usesCleartextTraffic="true"
       tools:ignore="MissingApplicationIcon,HardcodedDebugMode">
     <provider
-      android:authorities="androidx.media3.test.utils.AssetContentProvider"
-      android:name="androidx.media3.test.utils.AssetContentProvider"/>
+      android:authorities="androidx.mynewmedia4.test.utils.AssetContentProvider"
+      android:name="androidx.mynewmedia4.test.utils.AssetContentProvider"/>
   </application>
 
   <instrumentation

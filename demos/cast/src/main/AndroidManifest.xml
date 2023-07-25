@@ -33,7 +33,7 @@
     <meta-data android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
         android:value="androidx.media3.cast.DefaultCastOptionsProvider"/>
 
-    <activity android:name=".MainActivity"
+    <activity android:name="androidx.mynewmedia4.demo.cast.MainActivity"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
         android:launchMode="singleTop" android:label="@string/application_name"
         android:theme="@style/Theme.AppCompat"

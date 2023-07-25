@@ -3,7 +3,7 @@
 This module provides a [Player][] implementation that controls a Cast receiver
 app.
 
-[Player]: ../common/src/main/java/androidx/media3/common/Player.html
+[Player]: ../common/src/main/java/androidx/mynewmedia4/common/Player.html
 
 ## Getting the module
 

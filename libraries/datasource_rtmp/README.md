@@ -3,7 +3,7 @@
 This module provides a [DataSource][] implementation for requesting [RTMP][]
 streams using [LibRtmp Client for Android][].
 
-[DataSource]: ../datasource/src/main/java/androidx/media3/datasource/DataSource.java
+[DataSource]: ../datasource/src/main/java/androidx/mynewmedia4/datasource/DataSource.java
 [RTMP]: https://en.wikipedia.org/wiki/Real-Time_Messaging_Protocol
 [LibRtmp Client for Android]: https://github.com/ant-media/LibRtmp-Client-for-Android
 

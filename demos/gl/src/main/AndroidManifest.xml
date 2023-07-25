@@ -28,7 +28,7 @@
       android:label="@string/application_name">
 
     <activity
-        android:name=".MainActivity"
+        android:name="androidx.mynewmedia4.demo.gl.MainActivity"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
         android:exported="true">
       <intent-filter>

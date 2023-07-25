@@ -22,11 +22,11 @@
   android:background="@color/player_background"
   tools:context=".PlayerActivity">
 
-  <androidx.media3.ui.AspectRatioFrameLayout
+  <androidx.mynewmedia4.ui.AspectRatioFrameLayout
     android:layout_height="300dp"
     android:layout_width="match_parent"
     >
-    <androidx.media3.ui.PlayerView
+    <androidx.mynewmedia4.ui.PlayerView
       android:id="@+id/player_view"
       android:background="@color/player_background"
       android:layout_width="match_parent"
@@ -36,7 +36,7 @@
       app:repeat_toggle_modes="one|all"
       app:show_shuffle_button="true"
       app:shutter_background_color="@color/player_background" />
-  </androidx.media3.ui.AspectRatioFrameLayout>
+  </androidx.mynewmedia4.ui.AspectRatioFrameLayout>
 
   <TextView
     android:id="@+id/media_artist"

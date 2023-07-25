@@ -5,7 +5,7 @@ The ExoPlayer IMA module provides an [AdsLoader][] implementation wrapping the
 content played using ExoPlayer.
 
 [IMA]: https://developers.google.com/interactive-media-ads/docs/sdks/android/
-[AdsLoader]: ../exoplayer/src/main/java/androidx/media3/exoplayer/source/ads/AdsLoader.java
+[AdsLoader]: ../exoplayer/src/main/java/androidx/mynewmedia4/exoplayer/source/ads/AdsLoader.java
 
 ## Getting the module
 

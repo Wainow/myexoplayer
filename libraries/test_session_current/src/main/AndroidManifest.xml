@@ -24,10 +24,10 @@
   </queries>
 
   <application android:allowBackup="false">
-    <activity android:name="androidx.media3.test.session.common.SurfaceActivity"
+    <activity android:name="androidx.mynewmedia4.test.session.common.SurfaceActivity"
         android:exported="false" />
 
-    <receiver android:name="androidx.media3.session.MediaButtonReceiver"
+    <receiver android:name="androidx.mynewmedia4.session.MediaButtonReceiver"
       android:exported="true"
       android:process=":remote">
       <intent-filter>
@@ -35,7 +35,7 @@
       </intent-filter>
     </receiver>
 
-    <service android:name="androidx.media3.session.MediaControllerProviderService"
+    <service android:name="androidx.mynewmedia4.session.MediaControllerProviderService"
         android:exported="true"
         android:process=":remote">
       <intent-filter>
@@ -44,7 +44,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MediaControllerCompatProviderService"
+    <service android:name="androidx.mynewmedia4.session.MediaControllerCompatProviderService"
         android:exported="true"
         android:process=":remote">
       <intent-filter>
@@ -53,7 +53,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MediaBrowserCompatProviderService"
+    <service android:name="androidx.mynewmedia4.session.MediaBrowserCompatProviderService"
         android:exported="true"
         android:process=":remote">
       <intent-filter>
@@ -62,7 +62,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MediaSessionProviderService"
+    <service android:name="androidx.mynewmedia4.session.MediaSessionProviderService"
         android:exported="true"
         android:process=":remote">
       <intent-filter>
@@ -71,7 +71,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MediaSessionCompatProviderService"
+    <service android:name="androidx.mynewmedia4.session.MediaSessionCompatProviderService"
         android:exported="true"
         android:process=":remote">
       <intent-filter>
@@ -80,7 +80,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MockMediaSessionService"
+    <service android:name="androidx.mynewmedia4.session.MockMediaSessionService"
         android:foregroundServiceType="mediaPlayback"
         android:exported="true"
         android:process=":remote">
@@ -89,7 +89,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.LocalMockMediaSessionService"
+    <service android:name="androidx.mynewmedia4.session.LocalMockMediaSessionService"
         android:foregroundServiceType="mediaPlayback"
         android:exported="true">
       <intent-filter>
@@ -97,7 +97,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MockMediaLibraryService"
+    <service android:name="androidx.mynewmedia4.session.MockMediaLibraryService"
         android:foregroundServiceType="mediaPlayback"
         android:exported="true"
         android:process=":remote">
@@ -106,7 +106,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.MockMediaBrowserServiceCompat"
+    <service android:name="androidx.mynewmedia4.session.MockMediaBrowserServiceCompat"
         android:exported="true"
         android:process=":remote">
       <intent-filter>
@@ -114,7 +114,7 @@
       </intent-filter>
     </service>
 
-    <service android:name="androidx.media3.session.LocalMockMediaBrowserServiceCompat"
+    <service android:name="androidx.mynewmedia4.session.LocalMockMediaBrowserServiceCompat"
         android:exported="true">
       <intent-filter>
         <action android:name="android.media.browse.MediaBrowserService" />

@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package androidx.media3.demo.transformer;
+package androidx.mynewmedia4.demo.transformer;
 
-import static androidx.media3.common.util.Assertions.checkArgument;
-import static androidx.media3.common.util.Assertions.checkState;
-import static androidx.media3.common.util.Assertions.checkStateNotNull;
+import static androidx.mynewmedia4.common.util.Assertions.checkArgument;
+import static androidx.mynewmedia4.common.util.Assertions.checkState;
+import static androidx.mynewmedia4.common.util.Assertions.checkStateNotNull;
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
 import android.content.Context;
 import android.opengl.EGL14;
 import androidx.annotation.Nullable;
-import androidx.media3.common.C;
-import androidx.media3.common.GlObjectsProvider;
-import androidx.media3.common.GlTextureInfo;
-import androidx.media3.common.VideoFrameProcessingException;
-import androidx.media3.common.util.LibraryLoader;
-import androidx.media3.common.util.Util;
-import androidx.media3.effect.GlShaderProgram;
+import androidx.mynewmedia4.common.C;
+import androidx.mynewmedia4.common.GlObjectsProvider;
+import androidx.mynewmedia4.common.GlTextureInfo;
+import androidx.mynewmedia4.common.VideoFrameProcessingException;
+import androidx.mynewmedia4.common.util.LibraryLoader;
+import androidx.mynewmedia4.common.util.Util;
+import androidx.mynewmedia4.effect.GlShaderProgram;
 import com.google.common.util.concurrent.MoreExecutors;
 import com.google.mediapipe.components.FrameProcessor;
 import com.google.mediapipe.framework.AppTextureFrame;

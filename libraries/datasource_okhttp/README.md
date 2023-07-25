@@ -6,7 +6,7 @@ This module provides an [HttpDataSource][] implementation that uses Square's
 OkHttp is a modern network stack that's widely used by many popular Android
 applications. It supports the HTTP and HTTP/2 protocols.
 
-[HttpDataSource]: ../datasource/src/main/java/androidx/media3/datasource/HttpDataSource.java
+[HttpDataSource]: ../datasource/src/main/java/androidx/mynewmedia4/datasource/HttpDataSource.java
 [OkHttp]: https://square.github.io/okhttp/
 
 ## License note

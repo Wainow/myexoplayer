@@ -32,7 +32,7 @@
       android:taskAffinity=""
       android:requestLegacyExternalStorage="true"
       tools:targetApi="29">
-    <activity android:name=".ConfigurationActivity"
+    <activity android:name="androidx.mynewmedia4.demo.transformer.ConfigurationActivity"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
         android:launchMode="singleTop"
         android:label="@string/app_name"
@@ -58,7 +58,7 @@
         <data android:mimeType="*/*"/>
       </intent-filter>
     </activity>
-    <activity android:name=".TransformerActivity"
+    <activity android:name="androidx.mynewmedia4.demo.transformer.TransformerActivity"
         android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
         android:launchMode="singleTop"
         android:label="@string/app_name"

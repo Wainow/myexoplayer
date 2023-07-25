@@ -14,6 +14,6 @@
      limitations under the License.
 -->
 
-<manifest package="androidx.media3.cast.test">
+<manifest package="androidx.mynewmedia4.cast.test">
   <uses-sdk/>
 </manifest>
