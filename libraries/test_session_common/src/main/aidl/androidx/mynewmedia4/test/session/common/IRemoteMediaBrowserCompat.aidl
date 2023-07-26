@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package androidx.media3.test.session.common;
+package androidx.mynewmedia4.test.session.common;
 
 import android.content.ComponentName;
 

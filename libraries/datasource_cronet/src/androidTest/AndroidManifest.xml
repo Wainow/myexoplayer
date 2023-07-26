@@ -29,7 +29,7 @@
     tools:ignore="MissingApplicationIcon,HardcodedDebugMode"/>
 
   <instrumentation
-      android:targetPackage="androidx.media3.datasource.cronet.test"
+      android:targetPackage="androidx.mynewmedia4.datasource.cronet.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

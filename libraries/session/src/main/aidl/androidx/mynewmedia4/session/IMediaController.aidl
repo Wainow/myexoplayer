@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package androidx.media3.session;
+package androidx.mynewmedia4.session;
 
 import android.os.Bundle;
 import android.app.PendingIntent;
-import androidx.media3.session.IMediaSession;
+import androidx.mynewmedia4.session.IMediaSession;
 
 /**
  * Interface from MediaSession to MediaController.

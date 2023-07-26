@@ -29,7 +29,7 @@
       android:usesCleartextTraffic="true"/>
 
   <instrumentation
-      android:targetPackage="androidx.media3.session.test"
+      android:targetPackage="androidx.mynewmedia4.session.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

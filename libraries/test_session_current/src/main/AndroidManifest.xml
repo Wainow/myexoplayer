@@ -14,13 +14,13 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="androidx.media3.test.session">
+    package="androidx.mynewmedia4.test.session">
   <uses-sdk/>
 
   <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
   <queries>
-    <package android:name="androidx.media3.test.session.test" />
+    <package android:name="androidx.mynewmedia4.test.session.test" />
   </queries>
 
   <application android:allowBackup="false">
@@ -40,7 +40,7 @@
         android:process=":remote">
       <intent-filter>
         <!-- Keep sync with CommonConstants.java -->
-        <action android:name="androidx.media3.test.session.action.MEDIA3_CONTROLLER" />
+        <action android:name="androidx.mynewmedia4.test.session.action.MEDIA3_CONTROLLER" />
       </intent-filter>
     </service>
 
@@ -49,7 +49,7 @@
         android:process=":remote">
       <intent-filter>
         <!-- Keep sync with CommonConstants.java -->
-        <action android:name="androidx.media3.test.session.action.MEDIA_CONTROLLER_COMPAT" />
+        <action android:name="androidx.mynewmedia4.test.session.action.MEDIA_CONTROLLER_COMPAT" />
       </intent-filter>
     </service>
 
@@ -58,7 +58,7 @@
         android:process=":remote">
       <intent-filter>
         <!-- Keep sync with CommonConstants.java -->
-        <action android:name="androidx.media3.test.session.action.MEDIA_BROWSER_COMPAT" />
+        <action android:name="androidx.mynewmedia4.test.session.action.MEDIA_BROWSER_COMPAT" />
       </intent-filter>
     </service>
 
@@ -67,7 +67,7 @@
         android:process=":remote">
       <intent-filter>
         <!-- Keep sync with CommonConstants.java -->
-        <action android:name="androidx.media3.test.session.action.MEDIA3_SESSION" />
+        <action android:name="androidx.mynewmedia4.test.session.action.MEDIA3_SESSION" />
       </intent-filter>
     </service>
 
@@ -76,7 +76,7 @@
         android:process=":remote">
       <intent-filter>
         <!-- Keep sync with CommonConstants.java -->
-        <action android:name="androidx.media3.test.session.action.MEDIA_SESSION_COMPAT" />
+        <action android:name="androidx.mynewmedia4.test.session.action.MEDIA_SESSION_COMPAT" />
       </intent-filter>
     </service>
 
@@ -85,7 +85,7 @@
         android:exported="true"
         android:process=":remote">
       <intent-filter>
-        <action android:name="androidx.media3.session.MediaSessionService" />
+        <action android:name="androidx.mynewmedia4.session.MediaSessionService" />
       </intent-filter>
     </service>
 
@@ -93,7 +93,7 @@
         android:foregroundServiceType="mediaPlayback"
         android:exported="true">
       <intent-filter>
-        <action android:name="androidx.media3.session.MediaSessionService" />
+        <action android:name="androidx.mynewmedia4.session.MediaSessionService" />
       </intent-filter>
     </service>
 
@@ -102,7 +102,7 @@
         android:exported="true"
         android:process=":remote">
       <intent-filter>
-        <action android:name="androidx.media3.session.MediaLibraryService" />
+        <action android:name="androidx.mynewmedia4.session.MediaLibraryService" />
       </intent-filter>
     </service>
 

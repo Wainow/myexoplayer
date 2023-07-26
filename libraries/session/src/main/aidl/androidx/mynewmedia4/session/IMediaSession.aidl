@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package androidx.media3.session;
+package androidx.mynewmedia4.session;
 
 import android.os.Bundle;
 import android.net.Uri;
 import android.view.Surface;
-import androidx.media3.session.IMediaController;
+import androidx.mynewmedia4.session.IMediaController;
 
 /**
  * Interface from MediaController to MediaSession.

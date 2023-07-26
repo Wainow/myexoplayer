@@ -33,7 +33,7 @@
   </application>
 
   <instrumentation
-      android:targetPackage="androidx.media3.test.exoplayer.playback.test"
+      android:targetPackage="androidx.mynewmedia4.test.exoplayer.playback.test"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

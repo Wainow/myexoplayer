@@ -1308,7 +1308,7 @@ public final class C {
   @UnstableApi
   @InlineMe(
       replacement = "Util.usToMs(timeUs)",
-      imports = {"androidx.media3.common.util.Util"})
+      imports = {"androidx.mynewmedia4.common.util.Util"})
   @Deprecated
   public static long usToMs(long timeUs) {
     return Util.usToMs(timeUs);
@@ -1320,7 +1320,7 @@ public final class C {
   @UnstableApi
   @InlineMe(
       replacement = "Util.msToUs(timeMs)",
-      imports = {"androidx.media3.common.util.Util"})
+      imports = {"androidx.mynewmedia4.common.util.Util"})
   @Deprecated
   public static long msToUs(long timeMs) {
     return Util.msToUs(timeMs);
@@ -1332,7 +1332,7 @@ public final class C {
   @UnstableApi
   @InlineMe(
       replacement = "Util.generateAudioSessionIdV21(context)",
-      imports = {"androidx.media3.common.util.Util"})
+      imports = {"androidx.mynewmedia4.common.util.Util"})
   @Deprecated
   @RequiresApi(21)
   public static int generateAudioSessionIdV21(Context context) {
@@ -1345,7 +1345,7 @@ public final class C {
   @UnstableApi
   @InlineMe(
       replacement = "Util.getFormatSupportString(formatSupport)",
-      imports = {"androidx.media3.common.util.Util"})
+      imports = {"androidx.mynewmedia4.common.util.Util"})
   @Deprecated
   public static String getFormatSupportString(@FormatSupport int formatSupport) {
     return Util.getFormatSupportString(formatSupport);
@@ -1357,7 +1357,7 @@ public final class C {
   @UnstableApi
   @InlineMe(
       replacement = "Util.getErrorCodeForMediaDrmErrorCode(mediaDrmErrorCode)",
-      imports = {"androidx.media3.common.util.Util"})
+      imports = {"androidx.mynewmedia4.common.util.Util"})
   @Deprecated
   public static @PlaybackException.ErrorCode int getErrorCodeForMediaDrmErrorCode(
       int mediaDrmErrorCode) {

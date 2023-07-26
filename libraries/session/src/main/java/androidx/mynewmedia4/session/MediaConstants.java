@@ -413,7 +413,7 @@ public final class MediaConstants {
    */
   @UnstableApi
   public static final String EXTRA_KEY_ROOT_CHILDREN_BROWSABLE_ONLY =
-      "androidx.media3.session.LibraryParams.Extras.KEY_ROOT_CHILDREN_BROWSABLE_ONLY";
+      "androidx.mynewmedia4.session.LibraryParams.Extras.KEY_ROOT_CHILDREN_BROWSABLE_ONLY";
 
   /**
    * {@link Bundle} key used in {@link LibraryParams#extras} passed by the {@link MediaBrowser} as
@@ -463,15 +463,15 @@ public final class MediaConstants {
    */
   @UnstableApi
   public static final String EXTRAS_KEY_MEDIA_TYPE_COMPAT =
-      "androidx.media3.session.EXTRAS_KEY_MEDIA_TYPE_COMPAT";
+      "androidx.mynewmedia4.session.EXTRAS_KEY_MEDIA_TYPE_COMPAT";
 
   /* package */ static final String SESSION_COMMAND_ON_CAPTIONING_ENABLED_CHANGED =
-      "androidx.media3.session.SESSION_COMMAND_ON_CAPTIONING_ENABLED_CHANGED";
+      "androidx.mynewmedia4.session.SESSION_COMMAND_ON_CAPTIONING_ENABLED_CHANGED";
   /* package */ static final String SESSION_COMMAND_REQUEST_SESSION3_TOKEN =
-      "androidx.media3.session.SESSION_COMMAND_REQUEST_SESSION3_TOKEN";
+      "androidx.mynewmedia4.session.SESSION_COMMAND_REQUEST_SESSION3_TOKEN";
 
   /* package */ static final String ARGUMENT_CAPTIONING_ENABLED =
-      "androidx.media3.session.ARGUMENT_CAPTIONING_ENABLED";
+      "androidx.mynewmedia4.session.ARGUMENT_CAPTIONING_ENABLED";
 
   private MediaConstants() {}
 }

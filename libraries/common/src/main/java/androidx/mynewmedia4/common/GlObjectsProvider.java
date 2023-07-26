@@ -31,7 +31,7 @@ import androidx.mynewmedia4.common.util.UnstableApi;
 @UnstableApi
 public interface GlObjectsProvider {
   /**
-   * @deprecated Please use {@code DefaultGlObjectsProvider} in {@code androidx.media3.effect}.
+   * @deprecated Please use {@code DefaultGlObjectsProvider} in {@code androidx.mynewmedia4.effect}.
    */
   @Deprecated
   GlObjectsProvider DEFAULT =

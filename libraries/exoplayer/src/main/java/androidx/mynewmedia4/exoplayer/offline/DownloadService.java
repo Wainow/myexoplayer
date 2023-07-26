@@ -60,11 +60,11 @@ public abstract class DownloadService extends Service {
    *   <li>{@link #KEY_FOREGROUND} - See {@link #KEY_FOREGROUND}.
    * </ul>
    */
-  public static final String ACTION_INIT = "androidx.media3.exoplayer.downloadService.action.INIT";
+  public static final String ACTION_INIT = "androidx.mynewmedia4.exoplayer.downloadService.action.INIT";
 
   /** Like {@link #ACTION_INIT}, but with {@link #KEY_FOREGROUND} implicitly set to true. */
   private static final String ACTION_RESTART =
-      "androidx.media3.exoplayer.downloadService.action.RESTART";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.RESTART";
 
   /**
    * Adds a new download. Extras:
@@ -78,7 +78,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_ADD_DOWNLOAD =
-      "androidx.media3.exoplayer.downloadService.action.ADD_DOWNLOAD";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.ADD_DOWNLOAD";
 
   /**
    * Removes a download. Extras:
@@ -89,7 +89,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_REMOVE_DOWNLOAD =
-      "androidx.media3.exoplayer.downloadService.action.REMOVE_DOWNLOAD";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.REMOVE_DOWNLOAD";
 
   /**
    * Removes all downloads. Extras:
@@ -99,7 +99,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_REMOVE_ALL_DOWNLOADS =
-      "androidx.media3.exoplayer.downloadService.action.REMOVE_ALL_DOWNLOADS";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.REMOVE_ALL_DOWNLOADS";
 
   /**
    * Resumes all downloads except those that have a non-zero {@link Download#stopReason}. Extras:
@@ -109,7 +109,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_RESUME_DOWNLOADS =
-      "androidx.media3.exoplayer.downloadService.action.RESUME_DOWNLOADS";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.RESUME_DOWNLOADS";
 
   /**
    * Pauses all downloads. Extras:
@@ -119,7 +119,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_PAUSE_DOWNLOADS =
-      "androidx.media3.exoplayer.downloadService.action.PAUSE_DOWNLOADS";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.PAUSE_DOWNLOADS";
 
   /**
    * Sets the stop reason for one or all downloads. To clear the stop reason, pass {@link
@@ -134,7 +134,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_SET_STOP_REASON =
-      "androidx.media3.exoplayer.downloadService.action.SET_STOP_REASON";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.SET_STOP_REASON";
 
   /**
    * Sets the requirements that need to be met for downloads to progress. Extras:
@@ -145,7 +145,7 @@ public abstract class DownloadService extends Service {
    * </ul>
    */
   public static final String ACTION_SET_REQUIREMENTS =
-      "androidx.media3.exoplayer.downloadService.action.SET_REQUIREMENTS";
+      "androidx.mynewmedia4.exoplayer.downloadService.action.SET_REQUIREMENTS";
 
   /** Key for the {@link DownloadRequest} in {@link #ACTION_ADD_DOWNLOAD} intents. */
   public static final String KEY_DOWNLOAD_REQUEST = "download_request";

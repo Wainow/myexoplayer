@@ -53,7 +53,7 @@ import java.lang.annotation.Target;
  *
  * <pre>{@code
  * import androidx.annotation.OptIn;
- * import androidx.media3.common.util.UnstableApi;
+ * import androidx.mynewmedia4.common.util.UnstableApi;
  * ...
  * @OptIn(markerClass = UnstableApi.class)
  * private void methodUsingUnstableApis() { ... }
@@ -63,7 +63,7 @@ import java.lang.annotation.Target;
  *
  * <pre>{@code
  * import androidx.annotation.OptIn
- * import androidx.media3.common.util.UnstableApi
+ * import androidx.mynewmedia4.common.util.UnstableApi
  * ...
  * @OptIn(UnstableApi::class)
  * private fun methodUsingUnstableApis() { ... }

@@ -30,7 +30,7 @@
       android:usesCleartextTraffic="true"/>
 
   <instrumentation
-      android:targetPackage="androidx.media3.transformer"
+      android:targetPackage="androidx.mynewmedia4.transformer"
       android:name="androidx.test.runner.AndroidJUnitRunner"/>
 
 </manifest>

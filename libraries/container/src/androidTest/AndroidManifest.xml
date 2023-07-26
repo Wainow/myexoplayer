@@ -29,6 +29,6 @@
     android:usesCleartextTraffic="true"/>
 
   <instrumentation
-    android:targetPackage="androidx.media3.container"
+    android:targetPackage="androidx.mynewmedia4.container"
     android:name="androidx.test.runner.AndroidJUnitRunner"/>
 </manifest>

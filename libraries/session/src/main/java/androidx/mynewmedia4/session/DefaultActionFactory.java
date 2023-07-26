@@ -50,11 +50,11 @@ import androidx.mynewmedia4.common.util.Util;
 @UnstableApi
 /* package */ final class DefaultActionFactory implements MediaNotification.ActionFactory {
 
-  private static final String ACTION_CUSTOM = "androidx.media3.session.CUSTOM_NOTIFICATION_ACTION";
+  private static final String ACTION_CUSTOM = "androidx.mynewmedia4.session.CUSTOM_NOTIFICATION_ACTION";
   private static final String EXTRAS_KEY_ACTION_CUSTOM =
-      "androidx.media3.session.EXTRAS_KEY_CUSTOM_NOTIFICATION_ACTION";
+      "androidx.mynewmedia4.session.EXTRAS_KEY_CUSTOM_NOTIFICATION_ACTION";
   public static final String EXTRAS_KEY_ACTION_CUSTOM_EXTRAS =
-      "androidx.media3.session.EXTRAS_KEY_CUSTOM_NOTIFICATION_ACTION_EXTRAS";
+      "androidx.mynewmedia4.session.EXTRAS_KEY_CUSTOM_NOTIFICATION_ACTION_EXTRAS";
 
   private final Service service;
 

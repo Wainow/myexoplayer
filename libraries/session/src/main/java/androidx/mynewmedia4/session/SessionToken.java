@@ -372,10 +372,10 @@ public final class SessionToken implements Bundleable {
    *
    * <pre>{@code
    * <intent>
-   *   <action android:name="androidx.media3.session.MediaSessionService" />
+   *   <action android:name="androidx.mynewmedia4.session.MediaSessionService" />
    * </intent>
    * <intent>
-   *   <action android:name="androidx.media3.session.MediaLibraryService" />
+   *   <action android:name="androidx.mynewmedia4.session.MediaLibraryService" />
    * </intent>
    * <intent>
    *   <action android:name="android.media.browse.MediaBrowserService" />
